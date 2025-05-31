@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test de Programación</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">  <!-- Link de la fuente de Google Font -->
 </head>
 <body>
     <!-- Video de fondo -->
@@ -16,7 +16,7 @@
     <!-- Sección de Bienvenida. Encabezado principal -->
     <header>
         <h1>Test de Programación</h1>
-        <p>Bienvenido al Test de Programación dinámico donde pondrás a prueba tus conocimientos. Obten el mejor puntaje para aparecer en el top 5. ¡Exitos!</p>
+        <p style="font-weight: bold;">Bienvenido al Test de Programación dinámico donde pondrás a prueba tus conocimientos. Obten el mejor puntaje para aparecer en el top 5. ¡Exitos!</p>
     </header>
 
     <!-- Sección de menú -->
@@ -24,7 +24,7 @@
         <form id="user-form">
             <label for="username">Ingresa tu Nombre:</label>
             <input type="text" id="username" required>
-            <button type="submit" id="start-btn" disabled>INICIAR QUIZ</button>
+            <button type="submit" id="start-btn" disabled>INICIAR TEST</button>
         </form>
         <section id="ranking-section">
             <h2>Top 5 Puntajes</h2>
@@ -43,8 +43,8 @@
         </section>
      </main>
 
-     <!-- Sección del quiz que estará escondida al inicio -->
-    <section id="quiz-section" class="hidden">
+     <!-- Sección del test que estará escondida al inicio -->
+    <section id="test-section" class="hidden">
         <div id="timer">05:00</div>
         <div id="question-container">
             <div id="question"></div>
@@ -59,13 +59,13 @@
         <div id="score"></div>
         <div id="percentage"></div>
         <div id="answer-review"></div>
-        <button id="new-quiz-btn">Nuevo Test</button>
+        <button id="new-test-btn">Nuevo Test</button>
         <button id="back-menu-btn">Regresar al Menú</button>
     </section>
 
     <!-- Pie de página -->
-    <footer>
-        © 2025 Test de Programación / By Jesús Angulo
+    <footer style="font-weight: bold;">
+        <p>© 2025 Test de Programación / By Jesús Angulo</p>
     </footer>
 
     <script src="script.js"></script>
