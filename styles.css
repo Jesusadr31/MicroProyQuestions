@@ -164,12 +164,13 @@ form button:hover:enabled {
 }
 
 #timer {
-    font-size: 24px;
-    color: #E74C3C;
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 5px;
+    right: 10px;
+    font-size: 18px;
+    color: #0f5889;
     font-weight: bold;
+    z-index: 10;
 }
 
 #question {
@@ -194,7 +195,7 @@ form button:hover:enabled {
     border-radius: 5px;
     width: 80%;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.1s, color 0.1s;
 }
 
 .answer-btn:hover:enabled {
